@@ -1,0 +1,25 @@
+.form1{
+    border: solid;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}
+.form1{
+    border: solid;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}
+.form3{
+    border: solid;
+    border-radius: 5px;
+    height: 600px;
+    width: 300px;
+}
+body{
+    background-color: black;
+}
+form{
+    background-color: white;
+    opacity: initial;
+}

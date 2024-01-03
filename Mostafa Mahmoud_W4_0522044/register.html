@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <section>
+        <form id="login" class="form1">
+            <h1>Login</h1>
+            <div>
+                <h2>UserName</h2>
+                <input id="LogUser" placeholder="UserName" type="text"><br>
+                <h2>Password</h2>
+                <input id="LogPass" placeholder="Password" type="password"><br>
+                <a href="#for">Forget Password</a><br>
+                <button onclick="click_Login()">Loginn</button>
+                <a href="#sign"><button>sign up</button></a>
+            </div>
+        </form>
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <form id="for" class="form1">
+            <h1>Forget Password</h1>
+            <div>
+                <h2>UserName</h2>
+                <input id="forUser" placeholder="UserName" type="text"><br>
+                <h2>New Password</h2>
+                <input id="forPass" placeholder="Password" type="password"><br>
+                <button onclick="newpass()">Update</button>
+            </div>
+        </form>
+
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <form id="sign" class="form3">
+            <h1>Sign up</h1>
+            <div>
+                <h2>UserName</h2>
+                <input id="SignUser" placeholder="UserName" type="text"><br>
+                <h2>Password</h2>
+                <input id="SignPass" placeholder="Password" type="password"><br>
+                <a href="">Forget Password</a><br>
+                <h2>Age</h2>
+                <input id="age" placeholder="Age" type="text"><br>
+                <h2>Gender</h2>
+                <input id="radio1" type="radio" name="gender"><label>Male</label>
+                <input id="radio2" type="radio" name="gender"><label>Female</label>
+                <h2>Phone Number</h2>
+                <input id="numbeer" placeholder="Phone Number" type="text"><br>
+                <button onclick="click_SignUp()">Sign Up</button>
+                <a href="#login"><button>login</button></a>
+            </div>
+        </form>
+    </section>
+    <script src="register.js"></script>
+</body>
+</html>
